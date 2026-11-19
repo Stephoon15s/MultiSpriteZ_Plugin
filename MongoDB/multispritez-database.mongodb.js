@@ -50,5 +50,13 @@ db.test.insertOne({
   task: "Environment Setup"
 });
 
+db.test.insertOne({
+    name: "Steven",
+    role: "Developer",
+    project: "MultiSprite_Z",
+    task: "Environment Setup"
+}
+)
+
 
 db.test.find();
